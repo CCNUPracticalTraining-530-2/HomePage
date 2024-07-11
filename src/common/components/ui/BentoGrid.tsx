@@ -1,12 +1,10 @@
 import { useState } from 'react';
 import { IoCopyOutline } from 'react-icons/io5';
-
-// Also install this npm i --save-dev @types/react-lottie
 import Lottie from 'react-lottie';
 
+import animationData from '@/common/data/confetti.json';
 import { cn } from '@/common/lib/utils';
 
-import animationData from '@/common/data/confetti.json';
 import MagicButton from '../MagicButton';
 import { BackgroundGradientAnimation } from './GradientBg';
 import GridGlobe from './GridGlobe';

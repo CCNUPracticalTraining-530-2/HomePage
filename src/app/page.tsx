@@ -1,7 +1,5 @@
 'use client';
 
-import { navItems } from '@/common/data';
-
 import Approach from '@/common/components/Approach';
 import Clients from '@/common/components/Clients';
 import Experience from '@/common/components/Experience';
@@ -10,6 +8,7 @@ import Grid from '@/common/components/Grid';
 import Hero from '@/common/components/Hero';
 import RecentProjects from '@/common/components/RecentProjects';
 import { FloatingNav } from '@/common/components/ui/FloatingNavbar';
+import { navItems } from '@/common/data';
 
 const Home = () => {
   return (

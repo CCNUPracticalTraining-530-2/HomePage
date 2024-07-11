@@ -1,8 +1,11 @@
 'use client';
-import { cn } from '@/common/lib/utils';
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import React, { useState } from 'react';
+
+import { cn } from '@/common/lib/utils';
+
 import { Button } from './MovingBorders';
 
 type Card = {

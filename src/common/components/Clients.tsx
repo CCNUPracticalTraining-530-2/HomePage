@@ -3,6 +3,7 @@
 import React from 'react';
 
 import { companies, testimonials } from '@/common/data';
+
 import { InfiniteMovingCards } from './ui/InfiniteCards';
 
 const Clients = () => {

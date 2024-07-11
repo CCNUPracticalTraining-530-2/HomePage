@@ -1,8 +1,9 @@
 'use client';
+
+import { motion } from 'framer-motion';
 import React, { useEffect, useState } from 'react';
 
 import { cn } from '@/common/lib/utils';
-import { motion } from 'framer-motion';
 
 type Direction = 'TOP' | 'LEFT' | 'BOTTOM' | 'RIGHT';
 
