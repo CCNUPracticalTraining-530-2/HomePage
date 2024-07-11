@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
-import './globals.css';
+import '@/common/styles/globals.scss';
+
 import { ThemeProvider } from './provider';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
+        <link rel="icon" href="/harmony-logo.png" sizes="any" />
       </head>
       <body className={inter.className}>
         <ThemeProvider
