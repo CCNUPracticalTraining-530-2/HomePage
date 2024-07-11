@@ -76,7 +76,7 @@ importers:
         version: 34.3.1
     devDependencies:
       '@types/node':
-        specifier: ^20
+        specifier: ^20.14.10
         version: 20.14.10
       '@types/react':
         specifier: ^18
