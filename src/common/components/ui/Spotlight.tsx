@@ -1,4 +1,4 @@
-import { cn } from '@/common/lib/utils';
+import { cn } from '@/common/utils/utils';
 
 type SpotlightProps = {
   className?: string;

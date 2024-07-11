@@ -3,7 +3,7 @@ import { IoCopyOutline } from 'react-icons/io5';
 import Lottie from 'react-lottie';
 
 import animationData from '@/common/data/confetti.json';
-import { cn } from '@/common/lib/utils';
+import { cn } from '@/common/utils/utils';
 
 import MagicButton from '../MagicButton';
 import { BackgroundGradientAnimation } from './GradientBg';
