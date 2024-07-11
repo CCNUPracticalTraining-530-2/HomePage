@@ -1,19 +1,18 @@
-"use client";
-import React from "react";
+'use client';
+import { cn } from '@/common/lib/utils';
 import {
   motion,
   useAnimationFrame,
   useMotionTemplate,
   useMotionValue,
   useTransform,
-} from "framer-motion";
-import { useRef } from "react";
-import { cn } from "@/common/lib/utils";
+} from 'framer-motion';
+import React, { useRef } from 'react';
 
 export function Button({
-  borderRadius = "1.75rem",
+  borderRadius = '1.75rem',
   children,
-  as: Component = "button",
+  as: Component = 'button',
   containerClassName,
   borderClassName,
   duration,
@@ -33,7 +32,7 @@ export function Button({
     <Component
       className={cn(
         // remove h-16 w-40, add  md:col-span-2
-        "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2 md:row-span-1",
+        'relative overflow-hidden bg-transparent p-[1px] text-xl md:col-span-2 md:row-span-1',
         containerClassName
       )}
       style={{
@@ -42,13 +41,13 @@ export function Button({
       {...otherProps}
     >
       <div
-        className="absolute inset-0 rounde-[1.75rem]"
+        className="rounde-[1.75rem] absolute inset-0"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         <MovingBorder duration={duration} rx="30%" ry="30%">
           <div
             className={cn(
-              "h-20 w-20 opacity-[0.8] bg-[radial-gradient(#CBACF9_40%,transparent_60%)]",
+              'h-20 w-20 bg-[radial-gradient(#CBACF9_40%,transparent_60%)] opacity-[0.8]',
               borderClassName
             )}
           />
@@ -57,7 +56,7 @@ export function Button({
 
       <div
         className={cn(
-          "relative bg-slate-900/[0.] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          'relative flex h-full w-full items-center justify-center border border-slate-800 bg-slate-900/[0.] text-sm text-white antialiased backdrop-blur-xl',
           className
         )}
         style={{
@@ -126,10 +125,10 @@ export const MovingBorder = ({
       </svg>
       <motion.div
         style={{
-          position: "absolute",
+          position: 'absolute',
           top: 0,
           left: 0,
-          display: "inline-block",
+          display: 'inline-block',
           transform,
         }}
       >
