@@ -8,8 +8,8 @@ import { ThemeProvider } from './provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Adrian's Portfolio",
-  description: 'Modern & Minimal JS Mastery Portfolio',
+  title: 'Harmony - 在线即时通讯平台 | 主页',
+  description: '爱来自华中师范大学 2022 级计算机学院早安少女组',
 };
 
 export default function RootLayout({
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="zh-cn" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/harmony-logo.png" sizes="any" />
       </head>
