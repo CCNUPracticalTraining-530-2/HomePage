@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">work experience</span>
+        团队<span className="text-yellow">开发人员</span>
       </h1>
 
       <div className="mt-12 grid w-full grid-cols-1 gap-10 lg:grid-cols-4">

@@ -18,16 +18,15 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          准备好让<span className="text-yellow"> 你的 </span>
+          数字化信息生活能否提升到新的水平？
         </h1>
         <p className="my-5 text-center text-white-200 md:mt-10">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          现在就联系我们，让我们讨论一下如何帮助您实现您的目标。
         </p>
-        <a href="mailto:contact@jsmastery.pro">
+        <a href="mailto:s5460703@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="和我们联络"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -35,7 +34,7 @@ const Footer = () => {
       </div>
       <div className="mt-16 flex flex-col items-center justify-between md:flex-row">
         <p className="text-sm font-light md:text-base md:font-normal">
-          Copyright © 2024 Adrian Hajdin
+          版权所有 © 2024 Harmony 和谐
         </p>
 
         <div className="flex items-center gap-6 md:gap-3">

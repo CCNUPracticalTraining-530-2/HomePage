@@ -7,17 +7,15 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        团队<span className="text-yellow">策略</span>
       </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex w-full flex-col items-center justify-center gap-4 lg:flex-row">
         {/* add des prop */}
         <Card
-          title="Planning & Strategy"
+          title="规划 & 目标"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="我们将合作规划您的网站目标、目标受众和关键功能。我们将讨论网站结构、导航和内容要求等内容。"
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="开发 & 进度更新"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="一旦我们就计划达成一致，我们就会启动 lofi 播放列表并开始编码。从最初的草图到完善的代码，随时向您通报每一步进展。"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,9 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="开发 & 发布"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="这就是奇迹发生的地方！根据批准的设计，我会将所有内容转化为功能代码，从头开始构建您的网站。"
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -142,12 +136,12 @@ const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
       {/* this btn is from https://ui.aceternity.com/components/tailwindcss-buttons border magic */}
-      {/* change rounded-lg, text-purple px-5 py-2 */}
+      {/* change rounded-lg, text-yellow px-5 py-2 */}
       {/* remove focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 cuz we don't need to focus */}
       {/* remove text-sm font-medium h-12 , add font-bold text-2xl */}
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px]">
         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-        <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-2 text-2xl font-bold text-purple backdrop-blur-3xl">
+        <span className="text-yellow inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-5 py-2 text-2xl font-bold backdrop-blur-3xl">
           {order}
         </span>
       </button>

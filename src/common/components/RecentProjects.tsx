@@ -10,8 +10,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20">
       <h1 className="heading">
-        A small selection of{' '}
-        <span className="text-purple">recent projects</span>
+        团队的{' '}
+        <span className="text-yellow">核心项目</span>
       </h1>
       <div className="mt-10 flex flex-wrap items-center justify-center gap-16 p-4">
         {projects.map((item) => (
@@ -67,8 +67,8 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <p className="flex text-sm text-purple md:text-xs lg:text-xl">
-                    Check Live Site
+                  <p className="text-yellow flex text-sm md:text-xs lg:text-xl">
+                    造访代码仓库
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

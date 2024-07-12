@@ -37,7 +37,7 @@ export const TextGenerateEffect = ({
               key={word + idx}
               // change here if idx is greater than 3, change the text color to #CBACF9
               className={` ${
-                idx > 3 ? 'text-purple' : 'text-black dark:text-white'
+                idx > 13 ? 'text-yellow' : 'text-black dark:text-white'
               } opacity-0`}
             >
               {word}{' '}
