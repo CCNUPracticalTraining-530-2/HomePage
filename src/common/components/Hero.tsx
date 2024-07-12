@@ -56,7 +56,7 @@ const Hero = () => {
             您好！ 这里是 Harmony, 一个基于服务器多频道分流在线即时通讯平台.
           </p>
 
-          <a href="#about">
+          <a href="https://harmony-530-2.vercel.app">
             <MagicButton
               title="立 即 体 验"
               icon={<FaLocationArrow />}
